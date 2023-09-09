@@ -2,7 +2,6 @@
 * {
     margin: 20;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -57,7 +56,7 @@ img {
 .hero-text {
     position: absolute;
     top: 50%;
-    left: 80%;
+    left: 75%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -100,14 +99,13 @@ img {
 
 /* Style for individual clothes cards */
 .clothes-card {
-    height: calc(50% - 20px);
+    height: 50%;
     width: auto;
     margin-bottom: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-    transition: transform 0.2s ease-in-out;
 }
 
 .clothes-card:hover {
@@ -135,11 +133,6 @@ img {
     color: #f57224; /* Price tag color */
 }
 
-i.fa-heart {
-    font-size: 20px;
-    color: #f57224; /* Heart icon color */
-    cursor: pointer;
-}
 
 /* CSS for the about sections */
 .about-section {
